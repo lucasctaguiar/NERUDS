@@ -1,0 +1,226 @@
+:root{
+    --LARANJA: #f58535;
+    --PRETO: #606062;
+    --CINZA: #DCDDDF; 
+}
+
+header{
+    color: var(--CINZA);
+    background: linear-gradient(#606062, #606062),
+    linear-gradient(#F58535,#F58535);
+    background-size: 40% 100%, 60% 100%;
+    background-position: 0% top, 100% top;
+    background-repeat: no-repeat;
+}
+
+.dropdown-item:hover{
+   background-color: var(--PRETO);
+   color: var(--LARANJA);
+    
+}
+
+.dropdown-menu{
+    background-color: var(--CINZA);
+    border: solid 1px var(--LARANJA);
+}
+
+.aside1{
+    width: 150px;
+    float: right;
+    margin-top: 47px;
+    margin-right: 10px;
+}
+
+.aside2{
+    width: 150px;
+    float: left;
+    margin-top: 47px;
+    margin-left: 10px;
+}
+
+.aside3{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 650px){
+    .aside1 {
+        display: none;
+    }
+    .aside2 {
+        display: none;
+    }
+}
+
+@media  screen and (min-width: 650px) {
+    .aside3 {
+        display: none;
+    }
+}
+
+main{
+    background-color: white;
+}
+
+
+body{
+    color: var(--PRETO);
+    background-color: var(--CINZA);
+}
+
+.logotipo{
+    background-image: image();
+    height: 90px;
+    margin-left: 0px;
+    border: solid 3px var(--LARANJA);
+    border-radius: 30px;
+}
+
+.nav-item a{
+    font-size: 18px;
+    color: black!important;
+}
+
+.nav-item a:hover{
+    font-weight: bold;
+    color: var(--CINZA)!important;
+}
+
+.Ne{
+    color: var(--PRETO);
+}
+
+.Ruds{
+    color: var(--LARANJA);
+}
+
+.card1{
+    width: 100%;
+    margin: auto;
+    
+}
+
+main .card{
+    background-color: var(--CINZA);
+    border-radius: 15px;
+}
+
+.cardside{
+    background-color: white;
+    border-radius: 25px;
+    border: solid 2px var(--CINZA);    
+}
+
+.list-group-item{
+    background-color: white;
+    border-radius: 15px;
+    border-radius: solid 2px var(--CINZA);
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+.principais:hover{
+    border: solid 3px var(--LARANJA);
+}
+
+
+.card-body .card-text{
+    text-align: justify;
+}
+
+.btne{
+    text-align: center!important;
+    margin-left: 45%;
+}
+
+.newcard{
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: var(--LARANJA);
+    border: solid 1px var(--PRETO);
+    color: var(--PRETO);
+}
+
+.btn:hover{
+    background-color: var(--PRETO);
+    border: solid 2px var(--LARANJA);
+    color: var(--LARANJA);
+}
+
+.parceiros{
+    margin: auto;
+    text-align: justify;
+    border: solid 4px var(--CINZA);
+    padding: 4px;
+}
+
+.list-group-item{
+    margin: 3px;
+}
+
+.lista {
+    margin: auto;
+    
+}
+
+.fotocoord{
+    float: left;
+}
+
+.phistorico{
+     text-align: justify;
+ }
+
+
+.row .border-bottom{
+    border-color: var(--PRETO)!important;
+}
+
+footer .row{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.card-header{
+    background-color: var(--PRETO);
+    color: var(--LARANJA);
+    border-radius: 30px;
+    
+    
+    
+    
+}
+
+.tableequipe{
+    border: solid 1px var(--PRETO);
+    max-height: 150px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--PRETO);
+}
+
+footer a:hover{
+    color: var(--CINZA);
+}
+
+.bi-geo-alt, .bi-instagram{
+    margin: auto;
+}
+
+footer{
+    color: var(--PRETO);
+    background-color: var(--LARANJA);
+}
